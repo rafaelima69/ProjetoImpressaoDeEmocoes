@@ -24,17 +24,17 @@ public class Emocoes {
 		
 		String conversa2;
 		
-		System.out.println("Agora que já sabemos um pouco mais sobre você, pedimos para que nos indique como está se sentindo hoje e repita esse processo diariamente.");
+		System.out.println("Agora que jï¿½ sabemos um pouco mais sobre vocï¿½, pedimos para que nos indique como estï¿½ se sentindo hoje e repita esse processo diariamente.");
 		System.out.println();
 		
 		while(cont < 2) {
 			a = cont;
-		System.out.println((a+1) + " º dia ");
-		System.out.println("Escolha a opção de como foi o seu dia:\r\n"
-				+ "[1] Ótimo...Super produtivo\r\n"
-				+ "[2] Bom...Na medida do possível\r\n"
+		System.out.println((a+1) + " ï¿½ dia ");
+		System.out.println("Escolha a opï¿½ï¿½o de como foi o seu dia:\r\n"
+				+ "[1] ï¿½timo...Super produtivo\r\n"
+				+ "[2] Bom...Na medida do possï¿½vel\r\n"
 				+ "[3] Ruim...\r\n"
-				+ "[4] Péssimo... Poderia nem ter levantado da cama\r\n"
+				+ "[4] Pï¿½ssimo... Poderia nem ter levantado da cama\r\n"
 				+ "");
 		
 		dia = sc.nextInt();
@@ -69,10 +69,10 @@ public class Emocoes {
 				cont++;
 				break;
 		default:
-			System.out.println("Dígito inválido! Por favor, digite alguma das opções.");
+			System.out.println("Dï¿½gito invï¿½lido! Por favor, digite alguma das opï¿½ï¿½es.");
 		}
 		System.out.println();
-		System.out.println("Qual foi a emoção que você mais sentiu durante o seu dia?\r\n"
+		System.out.println("Qual foi a emoï¿½ï¿½o que vocï¿½ mais sentiu durante o seu dia?\r\n"
 				+ "[1] Feliz\r\n"
 				+ "[2] Triste\r\n"
 				+ "[3] Aflito\r\n"
@@ -107,35 +107,35 @@ public class Emocoes {
 				ansioso++;	
 				break;
 			default:
-				System.out.println("Dígito inválido! Por favor, digite uma das opções.");
+				System.out.println("Dï¿½gito invï¿½lido! Por favor, digite uma das opï¿½ï¿½es.");
 	}
 		System.out.println();
 		System.out.println("Quer conversar?\r\n"
 				+ "[1] Sim\r\n"
-				+ "[2] Não\r\n"
+				+ "[2] Nï¿½o\r\n"
 				+ "");
 		conversa = sc.nextInt();
 		switch(conversa) {
 			case 1: 
-				System.out.println("Estamos aqui para te escutar! Conte-nos como está sendo o seu dia!");
+				System.out.println("Estamos aqui para te escutar! Conte-nos como estï¿½ sendo o seu dia!");
 				conversa2 = sc.next();
-				System.out.println("Obrigada por nos contatar e compartilhar sua experiência, sentimentos! Suas respostas estão em nossos arquivos para acompanhamento.");
+				System.out.println("Obrigada por nos contatar e compartilhar sua experiï¿½ncia, sentimentos! Suas respostas estï¿½o em nossos arquivos para acompanhamento.");
 				System.out.println();
-				System.out.println("Para continuarmos com o seu processo de autoconhecimento aguardamos no próximo dia o registro de suas emoções. ");
+				System.out.println("Para continuarmos com o seu processo de autoconhecimento aguardamos no prï¿½ximo dia o registro de suas emoï¿½ï¿½es. ");
 				System.out.println();
 				break;
 			case 2:
-				System.out.println("Obrigada por nos contatar! Seus dados estão salvos e continuaremos à disposição para auxiliá-lo.");
+				System.out.println("Obrigada por nos contatar! Seus dados estï¿½o salvos e continuaremos ï¿½ disposiï¿½ï¿½o para auxiliï¿½-lo.");
 				System.out.println();
-				System.out.println("Para continuarmos com o seu processo de autoconhecimento aguardamos no próximo dia o registro de suas emoções. ");
+				System.out.println("Para continuarmos com o seu processo de autoconhecimento aguardamos no prï¿½ximo dia o registro de suas emoï¿½ï¿½es. ");
 				System.out.println();
 				break;
 			default:
-				System.out.println("Dígito inválido! Por favor, digite uma das opções.");
+				System.out.println("Dï¿½gito invï¿½lido! Por favor, digite uma das opï¿½ï¿½es.");
 		}
 }
 		System.out.println();
-		System.out.println("Agora iremos mostrar quantas vezes você sentiu as emoções descritas:");
+		System.out.println("Agora iremos mostrar quantas vezes vocï¿½ sentiu as emoï¿½ï¿½es descritas:");
 		//System.out.println();
 			System.out.println("Feliz : " + feliz);
 			System.out.println("Triste: " + triste);
